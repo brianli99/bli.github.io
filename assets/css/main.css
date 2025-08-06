@@ -718,6 +718,41 @@ section,
   background-color: var(--accent-color);
 }
 
+/* New Skills List Styling */
+.skills .skills-list {
+  margin-top: 20px;
+}
+
+.skills .skill-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 12px 15px;
+  background: var(--surface-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.skills .skill-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.skills .skill-item i {
+  font-size: 20px;
+  color: var(--accent-color);
+  margin-right: 12px;
+  min-width: 24px;
+}
+
+.skills .skill-item span {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--default-color);
+  line-height: 1.4;
+}
+
 /*--------------------------------------------------------------
 # Resume Section
 --------------------------------------------------------------*/
